@@ -187,7 +187,7 @@ footer {
 }
 
 .navbar__mobile {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -260,6 +260,9 @@ footer {
     border-bottom: 1px solid #d7d7d7;
     padding: 1em;
   }
+  .content .text .profiles .profile .profile_content {
+    padding: 0;
+  }
   .content .text .profiles .profile img {
     margin-right: 1em;
   }
@@ -275,26 +278,26 @@ footer {
     width: 100%;
   }
   .navbar__mobile {
-      display: flex;
-      justify-content: center;
-      align-items: flex-start;
-      background-color:#00a1d3;
-      flex-direction: column;
-      width: 100%;
-      padding: 2em 1em 1em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #00a1d3;
+    flex-direction: column;
+    width: 100%;
+    padding: 2em 1em 1em 1em;
   }
   .navbar__mobile a {
-      padding: 10px 20px;
-      border: 1px solid #fff;
-      width: 100%;
-      border-radius: 10px;
-      text-decoration: none;
-      text-transform: uppercase;
-      color: #fff;
-      position: relative;
-      margin-bottom: 1em;
-      font-weight: 600;
-      font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    margin-bottom: 1em;
+    font-weight: 600;
+    font-size: 14px;
   }
   .navbar__mobile a::after {
     content: url("../images/mobile_link_arrow.png");
